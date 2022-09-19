@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html  lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página para estudar html" />
+        <meta name="author" content="César Ferreira" />
+        <meta name="keywords" content="html, estudos" />
+        <title>Página Inicial</title>
+    </head>
+    <body>
+        <header><!--cabeçalho introduz o conteudo-->
+        <h1> Estudo HTML</h1>
+        <h3> Conceitos introdutorios</h3>
+        <nav> <!--agrupa links de navegação -->
+            <ol><li><a href="#intro"> introdução</a></li>
+            </ol>
+        </nav>
+        </header>
+        <main><!-- Conteudo Principal da página -->
+        <section> <!-- separa seção-->
+        <p>Lorem </p>
+        </section>
+        </main> 
+        <hr/> <!--Horizontal rule-->
+        <h3> Uso de tabelas</h3>[
+        <table border="1" cellpadding="3" style="border-collapse: collapse;">
+        <thead><!-- Cabeça~lho da tabela -->
+        <tr>
+            <th colspan="4">usuatios</th>
+        </tr>
+            <tr><!--table row-->
+        <th>nome</th>
+        <th>CPF</th>
+        <th> Data Nasc.</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Funcionario</td><!--mesclar celula-->
+                <td> José Almir</td>
+                <td>000.000.000-00</td>
+                <td>20/01/1999
+            </tr>
+            <tr>
+                <td> Maria Aparecida</td>
+                <td>000.000.000-00</td>
+                <td>20/01/1999</td>
+
+            </tr>
+            <tr>
+                <td> Carlos José Aparecida</td>
+                <td>000.000.000-00</td>
+                <td>27/04/1996</td>
+                
+            </tr>
+            <tr><td rowspan="2">Cliente</td><!--mesclar celula-->
+                <td> José Almir</td>
+                <td>000.000.000-00</td>
+                <td>20/01/1999
+
+            </tr>
+            <tr>
+              <td> José Almir</td>
+              <td>000.000.000-00</td>
+              <td>20/01/199</td>
+            </tr>
+
+        </tbody>
+        </table>
+
+        <footer><!-- Dá informações sobre autoria e conteudo rodapé-->
+            ©
+        <script>
+            // esse treco só pode me em javscript-->
+            document.write(new Date().getFullYear())
+        </script>
+        Soulcode acadamy
+
+        </footer>
+    </body>
