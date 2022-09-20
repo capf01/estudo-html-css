@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)file:///C:/Users/Zizinha%20PC/Desktop/SOULCODE/HTML%20CSS/index.html/tabela%20brasileirao%20seria%20a.html -->
+<html lang="pt-br">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="fORMULÁRIO html">
+        <meta name="author" content="César Ferreira">
+        <meta name="keywords" content="html, estudos">
+        <title>FORMULÁRIO</title>
+</head>
+<body>
+        <form>
+            <div>
+                <!--Rótulo do campo (dá um nome)-->
+                <label for= "CampoNome"> Nome Completo</label><br/>
+                <!--Campo de entrada de dados-->
+                <!--Placeholder = dica p/ usuarios-->
+                <!--required = obrigatório-->
+                <input id ="CampoNome" tpe="text" placeholder="Seu Nome"required />
+            </div>
+            <div>
+                <label for="campoEmail">EMAIL</label><br/>
+                
+                <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required/>
+
+            </div>
+            <div>
+                <label for="senha">senha</label><br/>
+                <input id="senha" senha="senha" type="password" placeholder="Digite sua senha" required/>
+
+            </div>
+            <div>
+                Profissão</br>
+                <select id="campProfissao" name="campoProfissão" required>
+                    
+                    <option selected disabled>Selecione uma opção</option>
+                    <option value="professor">Professor</option>
+                    <option value="tecnico">tecnico</option>
+                    <option value="especialista">especialista</option>
+                    <option value="nda">nenhuma das anteriores</option>
+                </select>
+            </div>
+            <div>
+                <label>Idioma nativo</label><br/>
+                <input id="checklistingles" name="campoIdioma" type="radio"value="ingles" required/>
+                <label for="checklistingles">Ingles</label>
+                <input id="checklistespanhol" name="campoIdioma" type="radio"value="espanhol" required/>
+                <label for="checklistespanhol">Espanhol</label>
+                <input id="checklistportugues" name="campoIdioma" type="radio"value="portugues"required/>
+                <label for="checklistportugues">Portugues</label>
+            </div>
+            <div>
+                <label for="campoResumo"><p>Fale sobre você:</p></label>
+                <textarea id="campoResumo" name="campoResumo" minlength="30" maxlength="128" rows="5" cols="30" placeholder="Descreva sua  vida profissional"></textarea>
+
+            </div>
+            <div>
+                <input id="checkTermos" type="checkbox" name="concordaTermos" required/>
+                <label for="checkTermos" >Concordo com os termos de serviço</label>
+            </div>
+            <div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">Limpar</button>
+                <button type="button" onclick="alert('Oie')">Outra ação</button>
+            </div>
+        </form>
+</body>
+</html>
