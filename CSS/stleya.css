@@ -1,0 +1,6 @@
+/* Para usar esse código é preciso linkar com um arquivo html*/
+p{
+    color: aqua;
+    font-size: larger;
+    text-decoration: underline;
+}
