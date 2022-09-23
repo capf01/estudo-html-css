@@ -50,6 +50,10 @@
                 </tr>
     </tbody>
 </table>
+<audio id="player" autoplay="autoplay" controls="controls">
+    <source src="./Audio/clique.mp3"type="audio/mp3" />
+    seu navegador não suporta HTML5
+  </audio>
 <section>
     <h2>Estilizando formulários</h2>
       <div>
@@ -67,8 +71,9 @@
             <label for="">Campo 3</label>
             <input type="text" placeholder="Campo 3" />
           </div>
-          <button class="my-button all-width">Enviar</button>
+          <button class="my-button all-width"><audio onclick="document.getElementById('player').play()">Enviar</audio></button>
         </form>
+        
       </div>
   </section>
 </body>

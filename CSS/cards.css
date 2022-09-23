@@ -1,0 +1,50 @@
+body{
+    background-color: skyblue;
+}
+.card1{
+    border: 1px;
+    background-color: rgb(171, 168, 168);
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: 6px 4px;
+    border-radius: 6px;
+    width: 300px;
+    height: 400px;
+    border-color: rgb(107, 107, 106);
+    
+}
+.card2{
+    border: 1px;
+    background-color: rgb(171, 168, 168);
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: -300px 200px;
+    border-radius: 6px;
+    width: 300px;
+    height: 400px;
+    border-color: rgb(107, 107, 106);
+    
+}
+.card3{
+    border: 1px;
+    background-color: rgb(250, 247, 247);
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: -100px 400px;
+    border-radius: 6px;
+    width: 300px;
+    height: 400px;
+    border-color: rgb(107, 107, 106);
+    
+}
+.imagem{
+    width: 400px;
+    margin: 100px 200px;
+    border-radius: 6px;
+    background-color: white;
+}
+.imagem2{
+    margin:100px 100px;
+    width: 400px;
+    height: -1000px;
+}
