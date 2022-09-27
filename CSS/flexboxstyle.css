@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box1{
+    background-color: blue;
+    
+}
+.box2{
+    background-color: rgb(255, 0, 0);
+    
+}
+.box3{
+    background-color: rgb(47, 255, 0);
+    
+}
+.box4{
+    background-color: rgb(255, 255, 0);
+    
+
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;/*Distribui em colunas "collum" e "row" deixa lado a lado*/
+    flex-wrap: wrap;
+    justify-content: center;/*alinha o conteudo da main space-arround ele dá um espaçamento entre as div e também da main, já o space-betteew somente entre os filhos. já o space-evenly deixa os epaços iguais na mesma proporção*/
+    align-items: center;/* ele centraliza o eixo do cross e deixa ele centralizado*/
+    align-content: center;
+    gap:16px; /* funciona como margin mas é controlado pela flexbox*/
+    height: 450px;/* se colocar a altura aqui eles estica tudo*/
+
+}
+.container-flex2{
+    display: flex;
+    background-color:orange;
+    height: 200px;
+    flex-wrap: wrap;
+
+}
+
+.box1{
+    width: 300px;
+    justify-content: center;
+    border-radius: 8px;
+    align-self:flex-end;/*faz o alinhamento de apenas um box ou seja ela vai para o final e restante obedece o cotainer*/
+    order:1;/* posso colocar a ordem que eu quiser sem mexer na estrutra do html*/
+
+} 
+    .box2{
+        width: 300px;
+        justify-content: center;
+        border-radius: 8px;
+    } 
+    .box3{
+        width: 300px;
+            justify-content: center;
+            border-radius: 8px;
+            height:200px;
+        }
+         .box4{
+    width: 300px;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+.box5{
+    background-color: aqua;
+    flex:1;
+
+}
+.box6{
+    background-color: brown;
+    flex: 2; /* divide em 2/3 o tamanho da box dimensiona a flexbox*/
+    
+}
+.box7{
+    background-color: pink;
+    flex:400px;
+
+}

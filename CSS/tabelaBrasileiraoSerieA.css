@@ -1,5 +1,5 @@
 .figura{
-    width: auto;
+    text-align: center;
 
 }
 .libert{
@@ -11,10 +11,18 @@
 }
 .sula{
     width: auto;
+    text-align: center;
+    text-size-adjust: auto;
+    font-family: cursive;    
+    background-color: rgb(255, 157, 0);
 
 }
 .rebaixamento{
     width: auto;
+    text-align: center;
+    text-size-adjust: auto;
+    font-family: cursive;    
+    background-color: rgb(226, 10, 10);
 
 }
 .normal{
