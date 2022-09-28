@@ -60,3 +60,11 @@ body{
     justify-content: center;
     align-items:flex-start;
 }
+@media (max-width:768px){
+    .container-flex{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        gap:16px;
+
+}
